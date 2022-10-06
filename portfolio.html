@@ -5,57 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  
+
   <body>
     <header>
       <nav>
-       <a href="./index.html" class="logo link"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-       <ul class="site-nav list">
+        <a href="./index.html" class="logo link">
+          <span class="logo-web">Web</span>
+          <span class="logo-studio">Studio</span>
+        </a>
+        <ul class="site-nav list">
           <li><a href="./index.html" class="link">Студія</a></li>
           <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
           <li><a href="#" class="link">Контакти</a></li>
-        </ul> 
+        </ul>
       </nav>
 
       <ul class="auth-nav list">
-        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com
+          </a>
+        </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11 </a></li>
       </ul>
-     
     </header>
 
     <main>
-      <section >
-
+      <section>
+        <!-- фильтры карточек работ -->
         <h1 class="visually-hidden">Портфоліо</h1>
         <ul class="filters list">
-          <li><button type="button" class="filters-button">Усі</button></li>
-          <li><button type="button" class="filters-button">Веб-сайти</button></li>
-          <li><button type="button" class="filters-button">Додатки</button></li>
-          <li><button type="button" class="filters-button">Дизайн</button></li>
-          <li><button type="button" class="filters-button">Маркетингі</button></li>
+          <li>
+            <button type="button" class="filters-button auto">Усі</button>
+          </li>
+          <li>
+            <button type="button" class="filters-button auto">Веб-сайти</button>
+          </li>
+          <li>
+            <button type="button" class="filters-button auto">Додатки</button>
+          </li>
+          <li>
+            <button type="button" class="filters-button auto">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="filters-button">Маркетингі</button>
+          </li>
         </ul>
+
+        <!-- карточки робот -->
         <h2 class="visually-hidden">Картки робіт</h2>
         <ul class="list">
           <li>
-            <a href="" class="link">
-              <img src="./images/three-persons.jpg" alt="вебсайт на екрані ноутбука">
-              <h3 class="title">Технокряк</h3>
-              <p class="paragraph">Веб-сайт</p>
-              <p class="paragraph">спливаючий текс</p>
-              
+            <a href="" class="link portfolio-link">
+              <img
+                src="./images/three-persons.jpg"
+                alt="вебсайт на екрані ноутбука"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-title">Технокряк</h3>
+              <p class="paragraph portfolio-paragraph">Веб-сайт</p>
+              <!-- <p class="paragraph">вспливаючий текст?</p> -->
             </a>
           </li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
       </section>
-
-      
-
     </main>
 
     <footer class="footer">
@@ -65,30 +95,26 @@
       </a>
       <address>
         <ul class="list list-address">
-         <li>
-          <a 
-           href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" 
-           target="_blank" 
-           rel="noopener noreferrer nofollow"
-           class="link footer-address"
-           >
-           м. Київ, пр-т Лесі Українки, 26
-          </a>
-         </li>
-         <li>
-          <a 
-           href="mailto:info@devstudio.com" 
-           class="link footer-contact">
-           info@devstudio.com
-          </a>
-         </li>
-         <li>
-          <a 
-           href="tel:+380961111111"  
-           class="link footer-contact">
-           +38 096 111 11 11
-          </a>
-         </li>
+          <li>
+            <a
+              href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="link footer-address"
+            >
+              м. Київ, пр-т Лесі Українки, 26
+            </a>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="link footer-contact">
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link footer-contact">
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
       </address>
     </footer>
