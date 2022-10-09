@@ -17,6 +17,8 @@ body {
   --footer-contact-color: rgba(255, 255, 255, 0.6);
   --work-card-border: #eeeeee;
 }
+
+/* перебивка стилей */
 .list {
   list-style: none;
 }
@@ -25,10 +27,8 @@ body {
   text-decoration: none;
 }
 
-.accent {
-  color: var(--accent-color);
-}
-
+/* <!-- шапка-хедер --> */
+/* логотип */
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -44,6 +44,7 @@ body {
   color: var(--logo-color);
 }
 
+/* навигация сайта и контакты */
 .site-nav .link {
   color: var(--basic-color);
   font-weight: 500;
@@ -64,6 +65,7 @@ body {
   color: var(--accent-color);
 }
 
+/* общие эфекты ховера и фокуса. кнопки */
 .site-nav .link:hover,
 .site-nav .link:focus,
 .auth-nav .link:hover,
@@ -73,6 +75,19 @@ body {
 .footer-address:focus,
 .footer-contact:focus {
   color: var(--accent-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  background: var(--accent-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
 }
 
 .filters-button {
@@ -98,6 +113,7 @@ body {
   background: var(--accent-color);
 }
 
+/* <!-- герой --> */
 .hero {
   left: 0px;
   top: 80px;
@@ -114,19 +130,8 @@ body {
   text-transform: uppercase;
 }
 
-.hero-button {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  background: var(--accent-color);
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--background-color);
-}
-
+/* <!-- приимущества --> */
+/* общее скрытие заголовков */
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -138,14 +143,6 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
-
-.visually-hidden {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .title-benefits {
@@ -164,6 +161,7 @@ body {
   color: var(--paragraf-color);
 }
 
+/* <!-- продукция --> */
 .products {
   font-weight: 700;
   font-size: 36px;
@@ -171,6 +169,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* <!-- команда --> */
 .section-team {
   background: var(--team-section-background);
 }
@@ -203,6 +202,7 @@ body {
   text-align: center;
 }
 
+/* <!-- подвал-футер --> */
 .footer {
   background: var(--hero-footer-section-background);
 }
@@ -224,6 +224,7 @@ body {
   color: var(--footer-contact-color);
 }
 
+/* <!-- карточки робот --> */
 .work-card {
   border: 1px var(--work-card-border) solid;
 }
