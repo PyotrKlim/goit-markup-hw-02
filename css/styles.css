@@ -1,21 +1,23 @@
 body {
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   font-size: 14px;
-
   letter-spacing: 0.03em;
-  background: #ffffff;
+  color: var(--basic-color);
+  background: var(--main-color);
 }
 
 :root {
-  --background-color: #ffffff;
+  /* цвета для текста */
   --accent-color: #2196f3;
   --basic-color: #212121;
+  --second-basic: #ffffff;
   --logo-color: #000000;
   --description-color: #757575;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  /*цвета для фона*/
+  --main-color: #ffffff;
   --hero-footer-section-background: #2f303a;
   --team-section-background: #f5f4fa;
-  --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
 
 /* перебивка стилей */
@@ -85,7 +87,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--background-color);
+  color: var(--second-basic);
 }
 
 .filters-button {
@@ -101,7 +103,7 @@ body {
 .filters-button:hover,
 .filters-button:focus {
   background: var(--accent-color);
-  color: var(--background-color);
+  color: var(--main-color);
 }
 .auto {
   cursor: pointer;
@@ -119,7 +121,7 @@ body {
 }
 
 .hero-title {
-  color: var(--background-color);
+  color: var(--second-basic);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -147,7 +149,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--basic-color);
 }
 
 .capital-letters {
@@ -179,7 +180,7 @@ body {
 }
 
 .team-card {
-  background-color: var(--background-color);
+  background-color: var(--main-color);
 }
 
 .team-title {
@@ -208,7 +209,7 @@ body {
 
 .logo-footer-studio,
 .footer-address {
-  color: var(--background-color);
+  color: var(--second-basic);
 }
 
 .footer-contact {
